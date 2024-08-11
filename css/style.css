@@ -1,0 +1,203 @@
+.navbar {
+    background: #EC0868;
+    height: 10vh;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.for-cards {
+    padding-top: 5rem;
+}
+
+.card {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid #EC0868;
+}
+
+.card>img {
+    border-radius: 50%;
+}
+
+.about-section {
+    padding-top: 5.5rem;
+}
+
+.services-section {
+    padding-top: 4rem;
+
+}
+
+.contact {
+    padding-top: 4rem;
+}
+
+.Heading {
+    font-family: "Noto Serif", serif;
+    font-size: 4.5rem;
+    background: linear-gradient(to left, #0d6efd, #dc3545);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.heading2 {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 4rem;
+    padding: 0 1rem;
+}
+
+.about-heading {
+    font-size: 2.8rem;
+}
+
+.para {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.card-track {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    line-height: 3;
+    text-align: center;
+}
+
+.card-track i {
+    font-size: 13rem;
+    color: #EC0868;
+}
+
+.spara {
+    line-height: 2.3;
+}
+
+.btn {
+    padding: 0.5rem 4rem;
+    transition: all 0.2s ease;
+}
+
+.btn:active {
+    transform: scale(0.5);
+}
+
+.i2 {
+    color: #0d6efd !important;
+}
+
+.i3 {
+    color: #ffc107 !important;
+}
+
+.card-track {
+    flex-direction: column;
+
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contact-box {}
+
+.contact-box h1 {
+    font-size: 2.5rem;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group input,
+textarea {
+    outline: none;
+    padding: 0 1rem;
+    background: #e0e0e0;
+    border: none;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+.form-group label {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    height: 9vh;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 25vh;
+    padding: 1rem 1rem;
+}
+
+.form-row {
+    display: flex;
+    row-gap: 1rem;
+}
+.footer-section{
+    /* height: 60vh; */
+    background-color: #343a40;
+    margin-top: 4rem;
+    color: white;
+}
+.f-row{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-icon{
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+    background: #454c53;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-row-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.f-row-content p{
+    font-weight: 600;
+}
+.f-row-content a{
+    text-decoration: none;
+}
+.footer-col-2 strong{
+    font-size: 1.3rem;
+}
+.footer-2-icon{
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    background: #454c53;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
